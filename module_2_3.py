@@ -4,13 +4,17 @@ i = 0
 D = (len(my_list))
 
 while i != D :
-     if my_list[i] > 0 and my_list[i] != 0:
+     if my_list[i] > 0:
 
         print(my_list[i])
         i += 1
 
-     else:
+     elif my_list[i] == 0:
         i += 1
+        continue
+
+     else:
+        break
 
 print('Конец цикла')
 
