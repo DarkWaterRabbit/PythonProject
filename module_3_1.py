@@ -35,7 +35,7 @@ def Spisok (a):
         Sp2.append(Sp1)
 
         print(string_info(Sp1))
-
+        count_calls()
     return Sp2
 
 Sp3 = Spisok (int(input('Введите количество элементов первого списка: ')))
